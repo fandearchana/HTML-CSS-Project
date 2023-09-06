@@ -1,245 +1,201 @@
-.container{
-    width: 100%;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 0 auto; 
+.body{
+    margin: 0 ;
+    padding:0;
+    font-family: 'Ralway',Arial, Helvetica, sans-serif;
 }
 .clearfix::after{
     content: "";
     display: block;
     clear: both;
 }
-.box-1{
-    width: 964px;
+.box1{
+    width:100%;   
+    height: 500px;  
+    text-align: center;
+    color: white;
+    background-image: url("../image/dd.jpg");
+    border-top: 10px solid #5385c1;  
+    margin-bottom: 50px;   
+}
+.header{    
+    max-width: 1000px;
     margin: 0 auto;
-    text-align: center; 
-    margin-left:  550px;
-    font-family:'Courier New', Courier, monospace;   
-}
-.box-1 h1{
-    width: 400px;       
-    float: left; 
-    color: #f6755e;
-   }
-.box-1 button{  
-    width: 100px;
-    float: right;
-    margin-right: 10px;    
-}
-.box-2{
-    clear: both;   
-    width: 100%;
-    background-color: aliceblue;
-    text-align: center;
-    background-image: url("../image/banner.jpg");
-    background-size: cover;
-        
-}
-.box-2 h1{
-    padding-top: 50px;
-    color: #25a2c3;
-}
-.box-2 p{
-    line-height: 30px;
-}
-.box-2 button{
-    width:150px;
-    background-color: #f6755e;
-    border: none;
-    color: white;
-    margin-bottom: 50px;
-}
-.box-main{
-    width: 964px;
-    margin: 0 auto;   
-    margin-bottom: 50px;
-}
-.box-main1{
-    width: 300px;    
-    float: left;
-}
-.box-3{
-    width: 300px;
-}
-.box-3 h3{
-    color: #25a2c3;
-    text-align: center;
-}
-.box-4{
-    width: 300px;
-}
-.box-4 h3{
-    color: #25a2c3; 
-    text-align: center;
-}
-.box-main img{
-    border-radius: 100%;
-    float: left;
-    padding: 10px;
-    margin: 50px;
-}
-.box-main2{
-    width: 200px;
-    float: left;
-}
-.box-5{
-    width: 300px;  
-}
-.box-5 h3{
-    color: #25a2c3;
-    text-align: center;  
-}
-.box-6{
-    width: 300px;  
-}
-.box-6 h3{
-    color: #25a2c3; 
-    text-align: center;
-}
-.brown{
-    width: 100%;
-    background-color: #f6755e;
-    text-align: center;
-    padding: 20px;
-    margin-bottom: 50px;
-}
-.brown h2{
-    color: white;    
-}
-.brown p{
-    color: white;
-    font-size: 9px;
-    font-weight: normal;
-    font-stretch: expanded;
-    
-}
-.brown h5{
-    color: white;    
-}
-.brown h6{
-    color: white;
     position: relative;
-    top: -20px;
-    font-size: 9px;
-    font-weight: normal;
-    font-stretch: expanded;
+    top: 45px;
+    /*margin-bottom: 50px;
+    margin-top: 50px;*/
 }
-.box-white{
-    width: 1000px;
-    margin: 0 auto;   
-    margin-bottom: 50px;
-}
-.Consequat{
-    width: 300px;    
-    border-top: 2px solid #dee1e3; 
-    border-right: 2px solid #dee1e3; 
+.header p{
     float: left;
 }
-.Consequat img{
-    width: 300px;
-    background-color: #25a2c3;    
+.header ul{
+    float: right;
 }
-.Consequat h3{
-    color: #25a2c3;
-    margin-left: 40px;  
-}
-.Consequat p{
-    margin-right: 10px;
-    line-height: 20px;
-    padding: 20px;
-}
-.Adipiscing{
-    width: 300px;
-    border-left: 2px solid #dee1e3; 
-    border-right: 2px solid #dee1e3;
+.header li{
     float: left;
-    margin-left: 40px;     
+    margin-left: 30px;
+    list-style: none;
 }
-.Adipiscing img{
-    width: 300px;
+.banner{
+    clear: both;    
+    margin: 0 auto;
+    position: relative;
+    top: 120px;
 }
-.Adipiscing h3{
-    color: #25a2c3;
-    margin-left: 40px;  
+.banner h1{
+    font-weight :100;
+    font-size: 50px;    
 }
-.Adipiscing p{
-    margin-right: 10px;
-    line-height: 20px;
-    padding: 20px;
+.banner p{
+    font-weight :100;
+    font-size: 15px;    
 }
-.Malesuada{
-    width: 300px;
-    border-left: 2px solid #dee1e3;
-    float: left;
-    margin-left: 40px;     
+.box2{
+    clear: both;
+    width: 70%;
+    margin:0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;    
 }
-.Malesuada h3{
-    color: #25a2c3;
-    margin-left: 40px;  
+.threeSection{
+    width:28%;
+    float:left;
+    padding: 20px;          
 }
-.Malesuada img{
-    width: 300px;
+.threeSection h1{
+    font-size:20px;
+    color: #6fb3e3;
+    font-weight:lighter;    
 }
-.Malesuada p{
-    margin-right: 10px;
-    line-height: 20px;
-    padding: 20px;
+.threeSection p{
+    font-size:10px;
+    line-height: 15px; 
+    margin-bottom: 30px;
+    color: gray;
 }
-.Get-In_Touch{
+.left-border{
+    border-left: 1px solid gray;
+}
+button{
+    width: 60px;
+    height:30px;
+    background-color: #5385c1;
+    color: white;
+    border: none;
+}
+.box3{
+    clear: both;
     width: 100%;
-    background-color: #25a2c3;         
+    background-color:#5385c1;    
+}
+.fixed-width{
+    width: 70%;
+    margin: 0 auto;
+    padding: 50px 0px;
+    color: white;
+    text-align: center;   
+}
+.fixed-width h1{    
+    font-size:45px;
+    font-weight: 100;
+}
+.fixed-width p{
+    font-size:16px;
+    font-weight: 100;
+    color: #b7c5da;
+}
+.group-person{
+    width: 15%;
+    float: left;
+    margin-top: 50px;
+    margin-right: 40px;
+    border: 1px solid #7ea4d1;
+    padding: 21px;    
+}
+.group-person img{
+    border-radius: 100%;
+    width: 100%;
+    margin-bottom: 50px;    
+}
+.group-person h2{
+   font-size: 15px;
+}
+.box4{
+    width: 70%;
+    margin:0 auto;   
+}
+.box4 h1{
+    text-align: center;
+    color:#53a0d9;
+    font-size: 45px;
+    font-weight: 100;
+}
+.box4 p{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 100;  
+    color: gray;  
+}
+.left{
+    width: 45%;
+    float: left; 
+    margin-top: 40px;   
+}
+.left h4{
+    color:#53a0d9;
+    font-weight: 100;
+}
+.left p{
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    color: gray;
+}
+.left img{
+    width: 100%;
+}
+.right{
+    width: 45%;
+    float: right; 
+    margin-top: 40px;   
+}
+.right h4{
+    color:#53a0d9;
+    font-weight: 100;
+}
+.right p{
+    font-size: 12px;
+    text-align: left;
+    line-height: 20px;
+    color: gray;
+}
+.right img{
+    width: 100%;
 }
 .footer{
-    width: 964px;
-    margin:0 auto;
-    color: white;
-    text-align:center ;   
-}
-.footer h1{
-   text-align: center;
-   padding-top: 50px;
-   font-size: 20px;   
-}
-.phone{
-    width: 200px; 
-    float: left;    
-    padding-left: 50px;   
-}
-.phone h6{
-    font-size: small;
-    float: left;  
-}
-.phone p{
-    color: red; 
-    float: left;        
-}
-.envelop{
-    width: 200px;
-    margin-left: 80px;
-    float: left;   
-}
-.envelop h6{
-    font-size: small;
-    float: left;     
-}
-.envelop p{
-    color: red; 
-    float: left;     
-}
-.map{
-    width: 200px;
-    margin-left: 50px;
-    float: left;   
-}
-.map h6{
-    font-size: small;
-    float: left;  
-}
-.map p{
-    color: red;
-    float: left;     
-} 
-.footer h5{
+    width: 70%;
     clear: both;
-    font-size: 10px;
-    padding-bottom: 20px;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-top: 1px solid black;
+    padding-top: 50px;
+}
+.wrapper{
+    width:40%;
+}
+.wrapper span{    
+    float: left;
+    color: gray;
+}
+.wrapper h5{    
+    float: left;
+    position: relative;
+    top: -25px;
+    color: gray;
+}
+
+.footer .icon-group{
+    margin-left: 100px;
+    float: right;
+    color: #5385c1;
 }
