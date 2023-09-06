@@ -1,0 +1,263 @@
+body{
+    font-family: 'Poppins',sans-serif; 
+    margin :0;
+    padding:0;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+/* box1 start here*/
+.box1{
+    width: 100%;
+    height: 1000px;
+    background-image: url("../images/slide01.jpg");
+    background-repeat: no-repeat;    
+    background-size: cover;    
+    background-attachment: fixed;
+    color: #fff;
+    
+}
+.box1 .nav h3{
+    float: left;
+    font-weight: 200;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.box1 .nav h4{
+    float: right;
+    font-weight: 200;
+    margin-right: 20px;
+    margin-top: 40px;
+}
+.box1 .nav .light-color{
+    font-weight: 100;
+    font-size: 12px;
+}
+.box1 .nav .fa{
+    margin-right: 10px;
+}
+.box1 .header{
+    width: 50%;
+    clear: both;
+    text-align: center;
+    margin: 0 auto;
+    position:relative;
+    top:30%;
+    margin-bottom: 20px;
+}
+.box1 .header p{
+    font-size: 14px;
+    letter-spacing: 4px;
+    font-weight: 200;
+}
+.box1 .header hr{
+    width: 40%;
+}
+.box1 .header h1{
+    font-size: 120px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+.box1 .list{  
+    width: 20%;
+    margin:0 auto;
+    text-align: center;   
+}
+.box1 .list li{
+    list-style: none;
+    float: left;
+    margin-left: 20px;
+    position: relative;
+    bottom: -500px;  
+    border: 2px solid gray;
+    border-radius: 100%;
+    font-size: 8px;    
+}
+/* box3 completed here*/
+/* box2 start here*/
+.box2{
+    clear: both;
+    width: 100%;    
+    background-color:#dfdfdf;     
+}
+.box2 .wrapper{
+    max-width: 70%;
+    text-align: center;
+    margin:0 auto;    
+}
+.box2 .wrapper .left{
+    width: 45%;
+    float: left;
+    background-color: #fff;
+    padding-bottom: 40px; 
+    margin:80px 0; 
+}
+.box2 .wrapper .right{
+    width: 45%;
+    float: right;
+    background-color: #fff;
+    padding-bottom: 40px; 
+    margin:80PX 0; 
+    margin-left: 10PX;   
+}
+.wrapper img{
+    width:100%;
+} 
+.text-beutify h6{
+    font-size: 11px;
+    font-weight: 200;    
+    letter-spacing: 2px;
+    color: #C0C0C0;
+}
+.text-beutify hr{
+   width: 40%;
+   margin: 0 auto;   
+   height:0.05px;
+   font-weight: 100;
+   color:#DCDCDC;      
+}
+.text-beutify h3{
+    font-size: 25px;
+    font-weight: 300;
+    margin-top: 8px;   
+}
+.text-beutify p{
+    font-size: 15px;
+    font-weight: 200;    
+    text-align: left;
+    color: #C0C0C0; 
+    padding:0 30px;    
+}
+.wrapper button{
+    width: 120px;
+    height: 40px;
+    margin-top: 20px;
+    background: none;
+    font-family: 'Poppins';
+    border:2px solid #C0C0C0;
+}
+/* box2 completed here*/
+/* box3 start here*/
+.box3{
+    width: 100%;
+    clear: both;
+    background-image: url("../images/bg.jpg"); 
+    background-size: cover;   
+    background-position: center;
+    background-attachment: fixed;
+    text-align: center;
+    color: #fff;
+}
+.box3 .mid-section{
+    width: 50%;
+    margin: 0 auto;
+    padding: 40px;
+    
+}
+.mid-section p{
+    font-size: 11px;
+    font-weight: 200;    
+    letter-spacing: 2px;
+    color: #C0C0C0;     
+}
+.mid-section hr{
+    width: 35%;
+    color: #C0C0C0;
+    height: 0.05px;
+}
+.mid-section h3{
+    font-size: 20px;
+    font-weight: 100;
+    margin-top: 8px; 
+    
+}
+/* box3 completed here*/
+/*box4 start here*/
+.box4{
+    width: 100%;
+    background-color:#dfdfdf;    
+}
+.box4 .top-section{
+    padding: 40px;
+    text-align: center;
+    
+}
+.top-section hr{
+    width: 19%;
+}
+.top-section h3{
+    color: black;    
+}
+.box4 .bottom-section{
+    width: 75%;   
+    text-align: center;
+    margin: 0 auto;
+    
+}
+.box4 .bottom-section img{
+    width: 40%;
+    float: left;    
+    margin-left: 50px;
+    margin-bottom: 50px;   
+    border: 10px solid #fff;   
+}
+/*box4 completed*/
+/*footer start*/
+.footer{   
+    width: 100%; 
+    clear: both;
+    background-color: black;
+    color: gray;
+    padding: 40px 0;
+    text-align: center;
+    margin: 0 auto;
+}
+.footer .fa{    
+    padding:10px;
+    font-size: 25px;    
+}
+.footer p{
+    font-size: 12px;   
+}
+/*footer end */
+/* media query start */
+@media only screen and (max-width:933px){
+    .box1 .header h1{
+        font-size:80px;
+    }
+    .box1 .list{
+        width: 30%;        
+        text-align: center;       
+    }
+    .box2 .wrapper .left{
+        width: 100%;
+       margin-bottom: 10px;
+    }
+    .box2 .wrapper .right{
+        width: 100%;
+    }
+    .box4 .bottom-section img{
+        width: 100%;        
+    }
+}
+@media only screen and (max-width:600px){
+    .mid-section p{
+        font-size: 9px;          
+        letter-spacing: 1px;         
+    }
+    .mid-section h3{
+        font-size: 16px;           
+    }
+    .footer .fa{    
+        padding:5px;
+        font-size: 15px;    
+    }
+    .footer p{
+        font-size: 9px;   
+    }
+}
+
+
+
